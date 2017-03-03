@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "sansuinanhaiLib"
   s.version      = "0.1.0"
-  s.summary      = "自己验证三方库"
+  s.summary      = "自己测试"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-目前项目用的是常用的三方库，现在是自己写一个库，验证一下
+"自己创建一个三方库，用来验证cocoapods 功能"
                    DESC
 
   s.homepage     = "https://github.com/sansuinanhai/sansuinanhaiLib"
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Classes", "test_lib/Classes/**/*.{h,m}"
-  #s.exclude_files = "Classes/Exclude"
+#s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
